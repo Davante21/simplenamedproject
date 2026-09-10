@@ -57,6 +57,14 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
+            const Icon(
+              Icons.sports_football,
+              size: 80,
+              color: Colors.brown,
+              semanticLabel: 'Football',
+            ),
+            const SizedBox(height: 20),
+
             const Text(
               'Taega has pushed the button this many times:',
               textAlign: TextAlign.center,
